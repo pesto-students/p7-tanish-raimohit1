@@ -1,0 +1,61 @@
+
+SOLUTIONS :-
+Question. 1
+
+URL stands for Uniform Resource Locator. URL is the address of the website which you can find in the address bar of your web browser. It is a reference to a resource on the internet.
+then go through the 
+DNS is short for Domain Name System. Like a phonebook, DNS maintains and maps the name of the website, i.e. URL, and particular IP address it links to. Every URL on the internet has a unique IP address which is of the computer which hosts the server of the website requested.
+
+You type a URL in your browser and press Enter.
+Browser looks up IP address for the domain.
+Browser initiates TCP connection with the server.
+Browser sends the HTTP request to the server.
+Server processes request and sends back a response.
+Browser renders the content.
+
+Question .a.   
+1.Provide a way for users to access and navigate Web pages .
+2.Display Web pages properly.
+3.Provide technology to enable multimedia features.
+
+
+Question b.
+
+Network Layer
+Rendering Engine
+JavaScript Engine
+UI Backed 
+Browser Engine
+User Interface
+
+
+Question c.
+
+this component is responsible for rendering a specific web page requested by the user on their screen. It interprets HTML and XML documents along with images that are styled or formatted using CSS, and a final layout is generated, which is displayed on the user interface
+
+Question d.
+Parsing means analyzing and converting a program into an internal format that a runtime 
+environment can actually run, for example the JavaScript engine inside browsers. 
+The browser parses HTML into a DOM tree. HTML parsing involves tokenization and tree construction
+
+Question e.
+The script processor executes Javascript code to process an event. The processor uses a pure Go implementation of ECMAScript 5.1 and has no external dependencies. This can be useful in situations where one of the other processors doesn't provide the functionality you need to filter event
+
+Question f.
+
+
+Have the function TreeConstructor( strArr ) take the array of strings stored in strArr , which will contain pairs of integers in the following format: (i1,i2) , where i1 represents a child node in a tree and the second integer i2 signifies that it is the parent of i1 
+
+Question g.
+
+
+Execution Stages.
+Activation.
+Generation.
+Processing.
+Completion.
+
+Quetion h.
+
+
+The CSSOM and DOM trees are combined into a render tree, which is then used to compute the layout of each visible element and serves as an input to the paint process that renders the pixels to screen. Optimizing each of these steps is critical to achieving optimal rendering performance.
