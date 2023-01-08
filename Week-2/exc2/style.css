@@ -1,0 +1,54 @@
+.Card1 {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+.Card2 {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+.Card3 {
+  background-color: green;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  margin-left: 66px;
+  margin-top: -110px;
+}
+.Card4 {
+  background-color: yellow;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  margin-left: 66px;
+}
+
+.Card {
+  margin-left: 700px;
+  margin-top: 311px;
+}
+.Card1:hover {
+  transition-duration: 2s;
+
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+.Card2:hover {
+  transition-duration: 2s;
+
+  transform: rotate(90deg);
+  transform-origin: center;
+}
+.Card3:hover {
+  transition-duration: 2s;
+  transform: rotate(90deg);
+  transform-origin: bottom right;
+}
+.Card4:hover {
+  transition-duration: 2s;
+  transform-origin: bottom right;
+  transform: rotate(90deg);
+}

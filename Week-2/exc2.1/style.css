@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  text-align: center;
+}
+
+.container {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.text {
+  display: flex;
+  padding-top: 50px;
+}
+.para-1,
+.para-2 {
+  padding: 20px;
+}
+.para-3,
+.para-4 {
+  padding: 30px;
+}
+.centre {
+  display: flex;
+}
+.picture {
+  height: 500px;
+  width: 500px;
+  padding: 150px;
+  margin-left: 5rem;
+}
+.centre-paragraph {
+  margin-left: 60px;
+  padding-top: 100px;
+}
+button {
+  margin-bottom: 50px;
+}
